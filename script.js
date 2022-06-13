@@ -1,7 +1,7 @@
     const respostas = [
         "Certeza!",
         "Não tenho tanta certeza.",
-        "É decididamente assim.",
+        "Decididamente sim.",
         "Não conte com isso.",
         "Sem dúvidas!",
         "Pergunte novamente mais tarde.",
@@ -43,8 +43,10 @@
         <div>${perguntaFeita.value}</div>
         ${respostas[numeroAleatorio]} `
 
-
+        /*
         setTimeout(function () {
             respostaFinal.style.opacity = 0
-        } , 3000)
+        } , 3000) 
+        */ 
+        return
     }
